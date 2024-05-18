@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://edoardoinamo.dev"
 title = "One inch at a time"
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
@@ -8,6 +8,8 @@ theme = 'anatole'
 pygmentsUseClasses = true   
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+
+paginate = 5
 
 [params]
     name = "Edoardo Inamo"
