@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crafted-software on One inch at a time</title>
+    <link>https://example.com/it/tags/crafted-software/</link>
+    <description>Recent content in crafted-software on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/it/tags/crafted-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 Kanban Smells - Pietro Campagnano - Crafted Software Milan</title>
+      <link>https://example.com/it/post/2020-10-24-10-kanban-smells-by-pietro-campagnano/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2020-10-24-10-kanban-smells-by-pietro-campagnano/</guid>
+      
+        <description>Pietro Campagnano racconta 10 Kanban Smells in un talk di Crafted Software</description>
+      
+    </item>
+    
+  </channel>
+</rss>

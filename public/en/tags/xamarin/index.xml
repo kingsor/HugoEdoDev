@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xamarin on One inch at a time</title>
+    <link>https://example.com/en/tags/xamarin/</link>
+    <description>Recent content in xamarin on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/xamarin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mobile Development with Xamarin</title>
+      <link>https://example.com/en/post/2019-11-06-mobile-development-with-xamarin/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2019-11-06-mobile-development-with-xamarin/</guid>
+      
+        <description>Starting with Xamarin development following James Montemagno</description>
+      
+    </item>
+    
+  </channel>
+</rss>

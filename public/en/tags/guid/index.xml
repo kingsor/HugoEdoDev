@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guid on One inch at a time</title>
+    <link>https://example.com/en/tags/guid/</link>
+    <description>Recent content in guid on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Sep 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/guid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visual Studio Project Type GUIDs</title>
+      <link>https://example.com/en/post/2015-09-07-visual-studio-project-types/</link>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-09-07-visual-studio-project-types/</guid>
+      
+        <description>Everything started opening a Visual Studio 2010 Solution and getting the following error: &#39;The project type is not supported by this installation.&#39;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

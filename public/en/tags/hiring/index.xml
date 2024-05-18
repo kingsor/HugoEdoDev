@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hiring on One inch at a time</title>
+    <link>https://example.com/en/tags/hiring/</link>
+    <description>Recent content in hiring on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 May 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/hiring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Red Flags of Hiring</title>
+      <link>https://example.com/en/post/2015-05-10-the-red-flags-of-hiring/</link>
+      <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-05-10-the-red-flags-of-hiring/</guid>
+      
+        <description>If you apply to a position, it&#39;s important you write an email that feels like a human wrote it and says what you’ve done in as a few words as possible. If you’re looking for a position at a startup, an agency, or something in the online industry, this list of hiring red flags may help you avoid ending up in the immediate ‘no’ pile.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

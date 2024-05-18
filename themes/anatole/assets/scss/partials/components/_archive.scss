@@ -1,0 +1,49 @@
+.archive {
+  margin: 30px;
+
+  &__heading {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.2em;
+
+    @include themed() {
+      color: t('primary');
+    }
+  }
+
+  &__list {
+    padding: 0;
+
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 5px;
+      list-style-type: none;
+    }
+
+    &-date {
+      text-align: right;
+
+      @include themed() {
+        color: t('primary-lighter');
+      }
+    }
+
+    &-title {
+      display: inline-block;
+      flex: 0.96;
+      font-size: 2rem;
+      // font-weight: 600;
+      // text-transform: uppercase;
+
+      @include themed() {
+        color: t('link');
+      }
+      &:hover {
+        @include themed() {
+          color: t('link-hover');
+        }
+      }
+    }
+  }
+}

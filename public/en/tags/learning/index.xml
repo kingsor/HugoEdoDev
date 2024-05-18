@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>learning on One inch at a time</title>
+    <link>https://example.com/en/tags/learning/</link>
+    <description>Recent content in learning on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pluralsight Free April</title>
+      <link>https://example.com/en/post/2020-04-08-pluralsight-free-april/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2020-04-08-pluralsight-free-april/</guid>
+      
+        <description>Pluralsight give access for free to its 7000+ video courses during April</description>
+      
+    </item>
+    
+    <item>
+      <title>More Android Open Source Apps</title>
+      <link>https://example.com/en/post/2016-01-26-more-android-open-source-apps/</link>
+      <pubDate>Tue, 26 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2016-01-26-more-android-open-source-apps/</guid>
+      
+        <description>There are more android open source apps I found on the internet that are usefull to improve android development learning.</description>
+      
+    </item>
+    
+    <item>
+      <title>Android Open Source Apps</title>
+      <link>https://example.com/en/post/2015-05-06-android-open-source-apps/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-05-06-android-open-source-apps/</guid>
+      
+        <description>In order to improve my skills on android development I always search for sample code and valueable apps from which learning new things. ...</description>
+      
+    </item>
+    
+    <item>
+      <title>Learning Javascript</title>
+      <link>https://example.com/en/post/2015-01-28-learning-javascript/</link>
+      <pubDate>Wed, 28 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-01-28-learning-javascript/</guid>
+      
+        <description>This is a list of interesting links I collected with the goal of learning javascript.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

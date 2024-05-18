@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>note-to-self on One inch at a time</title>
+    <link>https://example.com/en/tags/note-to-self/</link>
+    <description>Recent content in note-to-self on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/note-to-self/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shape Up, basecamp team approach to product development</title>
+      <link>https://example.com/en/post/2019-10-13-shape-up-product-development/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2019-10-13-shape-up-product-development/</guid>
+      
+        <description>Jason Fried let us know Shape Up is available</description>
+      
+    </item>
+    
+    <item>
+      <title>Build a product without quitting your day job</title>
+      <link>https://example.com/en/post/2019-08-06-build-product-without-quitting-job/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2019-08-06-build-product-without-quitting-job/</guid>
+      
+        <description>My quotes from Aytekin Tank post on IndieHackers</description>
+      
+    </item>
+    
+    <item>
+      <title>The Perils of Shiny New Objects</title>
+      <link>https://example.com/en/post/2019-02-17-perils-shiny-new-objects/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2019-02-17-perils-shiny-new-objects/</guid>
+      
+        <description>&#39;Beware of shiny new objects&#39; advice by Mark Suster</description>
+      
+    </item>
+    
+    <item>
+      <title>The handstand theory</title>
+      <link>https://example.com/en/post/2014-12-18-the-handstand-theory/</link>
+      <pubDate>Thu, 18 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2014-12-18-the-handstand-theory/</guid>
+      
+        <description>There are two ways to fall out of a handstand: down the way I came up or over the top into the unknown.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

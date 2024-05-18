@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal-branding on One inch at a time</title>
+    <link>https://example.com/it/tags/personal-branding/</link>
+    <description>Recent content in personal-branding on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/it/tags/personal-branding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Il lavoro è una cosa seria</title>
+      <link>https://example.com/it/post/2020-04-11-il-lavoro-cosa-seria-enrica-crivello/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2020-04-11-il-lavoro-cosa-seria-enrica-crivello/</guid>
+      
+        <description>Il lavoro è una cosa seria, ma una può anche decidere di farlo divertendosi.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

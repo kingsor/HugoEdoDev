@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on One inch at a time</title>
+    <link>https://example.com/it/post/</link>
+    <description>Recent content in Posts on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/it/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lavorare viaggiando e non farsi mai assumere</title>
+      <link>https://example.com/it/post/2022-05-24-lavorare-viaggiando/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2022-05-24-lavorare-viaggiando/</guid>
+      
+        <description>Riflessioni personali su un video di Marcello Ascani</description>
+      
+    </item>
+    
+    <item>
+      <title>SQL Server 2019 con docker su Mac M1</title>
+      <link>https://example.com/it/post/2022-05-15-sql-server-docker-mac-m1/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2022-05-15-sql-server-docker-mac-m1/</guid>
+      
+        <description>Come utilizzare SQL Server su Mac M1</description>
+      
+    </item>
+    
+    <item>
+      <title>SQL Server 2019 con docker compose</title>
+      <link>https://example.com/it/post/2022-01-09-sql-server-2019-docker-compose/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2022-01-09-sql-server-2019-docker-compose/</guid>
+      
+        <description>Come utilizzare docker compose per instanziare SQL Server 2019</description>
+      
+    </item>
+    
+    <item>
+      <title>Testare GitHub Pages localmente</title>
+      <link>https://example.com/it/post/2021-07-06-testing-github-pages-locally/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2021-07-06-testing-github-pages-locally/</guid>
+      
+        <description>Come testare il proprio sito realizzato con Jekyll in locale con docker</description>
+      
+    </item>
+    
+    <item>
+      <title>10 Kanban Smells - Pietro Campagnano - Crafted Software Milan</title>
+      <link>https://example.com/it/post/2020-10-24-10-kanban-smells-by-pietro-campagnano/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2020-10-24-10-kanban-smells-by-pietro-campagnano/</guid>
+      
+        <description>Pietro Campagnano racconta 10 Kanban Smells in un talk di Crafted Software</description>
+      
+    </item>
+    
+    <item>
+      <title>Trasformare la propria passione in una professione</title>
+      <link>https://example.com/it/post/2020-07-25-trasformare-passione-in-professione/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2020-07-25-trasformare-passione-in-professione/</guid>
+      
+        <description>Questo post di Jacopo Perfetti riassume bene il percorso per vivere delle proprie passioni.</description>
+      
+    </item>
+    
+    <item>
+      <title>Intervista a Gabriele Lana</title>
+      <link>https://example.com/it/post/2020-07-07-intervista-a-gabriele-lana/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2020-07-07-intervista-a-gabriele-lana/</guid>
+      
+        <description>Intervista a Gabriele Lana by Simone Torrisi di TomorrowDevs</description>
+      
+    </item>
+    
+    <item>
+      <title>Il lavoro è una cosa seria</title>
+      <link>https://example.com/it/post/2020-04-11-il-lavoro-cosa-seria-enrica-crivello/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2020-04-11-il-lavoro-cosa-seria-enrica-crivello/</guid>
+      
+        <description>Il lavoro è una cosa seria, ma una può anche decidere di farlo divertendosi.</description>
+      
+    </item>
+    
+    <item>
+      <title>Restore di un backup su SQL Server</title>
+      <link>https://example.com/it/post/2020-01-20-restore-di-backup-su-sqlserver/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2020-01-20-restore-di-backup-su-sqlserver/</guid>
+      
+        <description>Come fare il restore di un backup su un&amp;rsquo;immagine docker di SQL Server per Linux</description>
+      
+    </item>
+    
+  </channel>
+</rss>

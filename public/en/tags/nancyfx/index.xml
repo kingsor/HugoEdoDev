@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nancyfx on One inch at a time</title>
+    <link>https://example.com/en/tags/nancyfx/</link>
+    <description>Recent content in nancyfx on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/nancyfx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy a side project on AppHarbor</title>
+      <link>https://example.com/en/post/2017-05-16-deploy-a-side-project-to-appharbor/</link>
+      <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2017-05-16-deploy-a-side-project-to-appharbor/</guid>
+      
+        <description>Deploy a simple side project on AppHarbor with some troubles.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

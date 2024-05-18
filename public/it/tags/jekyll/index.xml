@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll on One inch at a time</title>
+    <link>https://example.com/it/tags/jekyll/</link>
+    <description>Recent content in jekyll on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/it/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testare GitHub Pages localmente</title>
+      <link>https://example.com/it/post/2021-07-06-testing-github-pages-locally/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2021-07-06-testing-github-pages-locally/</guid>
+      
+        <description>Come testare il proprio sito realizzato con Jekyll in locale con docker</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lifestyle on One inch at a time</title>
+    <link>https://example.com/en/tags/lifestyle/</link>
+    <description>Recent content in lifestyle on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Dec 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The handstand theory</title>
+      <link>https://example.com/en/post/2014-12-18-the-handstand-theory/</link>
+      <pubDate>Thu, 18 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2014-12-18-the-handstand-theory/</guid>
+      
+        <description>There are two ways to fall out of a handstand: down the way I came up or over the top into the unknown.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

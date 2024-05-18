@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        From Monolith to Micro-Services |
+      Edoardo Inamo
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.121.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Edoardo Inamo" />
+  <meta
+    name="description"
+    content="Micro-services are not (only) about technology"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.1147aa5bacb4bce677a0e264073829caedb82fd18ea07a5f1d80521f539d1c45.css"
+      integrity="sha256-EUeqW6y0vOZ3oOJkBzgpyu24L9GOoHpfHYBSH1OdHEU="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7f3c2281c7f965ce3c64888aa452793252a0416909c181097f81d0a0f7d1624e.css"
+    integrity="sha256-fzwigcf5Zc48ZIiKpFJ5MlKgQWkJwYEJf4HQoPfRYk4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.35fc032da8ede6681675d20a2f862fb9e1045c1d512d495fcf862c054daffef2.css"
+    integrity="sha256-NfwDLajt5mgWddIKL4YvueEEXB1RLUlfz4YsBU2v/vI="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.3b92357925ea7284f0c6b0378396f39f470f7842ed9702f337e667c4026bf837.css"
+    integrity="sha256-O5I1eSXqcoTwxrA3g5bzn0cPeELtlwLzN&#43;ZnxAJr&#43;Dc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.ebb1096e1976e8cc4e2532cfa050b8f30eb13b8eb06be5cee3e38eb426b838ea.css"
+    integrity="sha256-67EJbhl26MxOJTLPoFC48w6xO46wa&#43;XO4&#43;OOtCa4OOo="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://example.com/en/post/2015-04-02-from-monolith-to-micro-services/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="From Monolith to Micro-Services"/>
+<meta name="twitter:description" content="Micro-services are not (only) about technology"/>
+
+
+
+  
+  <meta property="og:title" content="From Monolith to Micro-Services" />
+<meta property="og:description" content="Micro-services are not (only) about technology" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/en/post/2015-04-02-from-monolith-to-micro-services/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2015-04-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-04-02T00:00:00+00:00" /><meta property="og:site_name" content="Edoardo Inamo" />
+
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "From Monolith to Micro-Services",
+        "headline": "From Monolith to Micro-Services",
+        "alternativeHeadline": "",
+        "description": "
+      Micro-services are not (only) about technology
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/example.com\/en\/post\/2015-04-02-from-monolith-to-micro-services\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Edoardo Inamo"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Edoardo Inamo"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Edoardo Inamo"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Edoardo Inamo"
+        },
+        "copyrightYear" : "2015",
+        "dateCreated": "2015-04-02T00:00:00.00Z",
+        "datePublished": "2015-04-02T00:00:00.00Z",
+        "dateModified": "2015-04-02T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Edoardo Inamo",
+            "url": "https://example.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/example.com\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/example.com\/en\/post\/2015-04-02-from-monolith-to-micro-services\/",
+        "wordCount" : "234",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "developer"
+
+    
+      
+        ,
+
+      
+      "micro-services"
+
+    
+      
+        ,
+
+      
+      "scalability"
+
+    
+      
+        ,
+
+      
+      "architecture"
+
+    ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    .
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/en">Edoardo Inamo</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>Software Developer</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/edoardo-inamo-2431168"
+            target="_blank"
+            rel="noopener me"
+            aria-label="linkedin"
+            title="linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/kingsor"
+            target="_blank"
+            rel="noopener me"
+            aria-label="github"
+            title="github"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="/index.xml"
+            target="_blank"
+            rel="noopener me"
+            aria-label="rss"
+            title="rss"
+          >
+            <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Edoardo Inamo
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+<script type = "text/javascript">
+var links = document.links;
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+    }
+}
+</script>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    .
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/en/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/en/post/"
+              
+              title=""
+              >Blog</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/en/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      .
+    "
+  >
+    
+    <div class="post__content">
+      <h1>From Monolith to Micro-Services</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  Thu, Apr 2, 2015
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2-minute read</span>
+          </li>
+        </ul>
+      <p>source: <a href="http://dejanglozic.com/2015/03/03/micro-services-for-dysfunctional-teams/">Micro-Services for Dysfunctional Teams</a></p>
+<blockquote>
+<p>When I am asked to do an elevator pitch about advantages of micro-services, this list typically comes to mind:</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>Individually deployable pieces of running software each responsible for a small number of tasks</li>
+</ul>
+</blockquote>
+<ul>
+<li>Each micro-service can be implemented using a different stack</li>
+<li>Horizontal scalability decisions can be made at a micro-service level</li>
+</ul>
+<blockquote>
+<p>When you analyze this list, neither point is really making your system better from a purely technical point of view. In fact, a monolithic system is definitely easier to work with when you are alone or have a small, ‘war room’ kind of a team. When a monolith is relatively small, deploying it is not a big deal, and cookie cutter scaling does not seem too wasteful (assuming the monolith does not depend on in-memory state that is hard to distribute).</p>
+</blockquote>
+<p>[&hellip;]</p>
+<blockquote>
+<p>Next time you are in position to pitch micro-services to a worried project manager or product owner, don’t forget that technology is really not what you are selling – you are selling a solution for process, governance, cost of operation and scalability issues, not a technology. You are selling the ability to fix a typo on a prominent page of your large system within minutes without touching the rest of the system. You are promising the ability to maneuver an oil tanker as if it was a canoe, in a world full of oil tankers.</p>
+</blockquote>
+</div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/en/tags/developer/">developer</a><a class="tag" href="/en/tags/micro-services/">micro-services</a><a class="tag" href="/en/tags/scalability/">scalability</a><a class="tag" href="/en/tags/architecture/">architecture</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Edoardo Inamo
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+<script type = "text/javascript">
+var links = document.links;
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+    }
+}
+</script>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

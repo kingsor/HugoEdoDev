@@ -1,0 +1,137 @@
+baseURL = "https://example.com"
+title = "One inch at a time"
+defaultContentLanguage = "it"
+defaultContentLanguageInSubdir = true
+theme = 'anatole'
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+    name = "Edoardo Inamo"
+    title = "Edoardo Inamo"
+    description = "Software Developer"
+    profilePicture = "images/profile.jpg"
+    year = 2017
+    avatar = "images/profile.jpg"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/landscape.jpg"
+    favicon = "favicons/"
+    DateForm = "January 2, 2006"
+    author = "Edoardo Inamo"
+    localizedDates = true
+
+    reversepagetitle = true
+    doNotLoadAnimations = true
+    #contentratio = 0.7
+    disableThemeSwitcher = true
+    displayMode = "dark"
+
+    fullPostContent = false
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownloads = true
+    showClients = true
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = true
+    showFooterFormWidget = true
+
+
+[languages]
+
+[languages.it]
+    weight = 1
+    languageCode = "it"
+    languageName = "Ita"
+    contentDir = "content/italian"
+
+[languages.it.params]
+    #title = "Un passo alla volta"
+    description = "Software Developer (desktop/backend),\n (ASP).NET (Core), C#, Azure, Clean Code,\n Freelance, Full Remote"
+
+[[languages.it.menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/it/"
+    weight = 100
+    
+[[languages.it.menu.main]]
+    name = "Blog"
+    identifier = "posts"
+    url = "/it/post/"
+    weight = 200
+
+[[languages.it.menu.main]]
+    name = "Chi Sono"
+    weight = 400
+    identifier = "about"
+    url = "/it/about/"
+
+[languages.en]
+    weight = 2
+    languageCode = "en"
+    languageName = "Eng"
+    contentDir = "content/english"
+    
+[languages.en.params]
+    #description = "I'm an experienced IT architect and a Microsoft MVP,\n focusing on the cloud and security. I write about tech, \nMicrosoft, security and lifting weights."
+    description = "Software Developer (desktop/backend),\n (ASP).NET (Core), C#, Azure, Clean Code,\n Freelance, Full Remote"
+
+[[languages.en.menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/en/"
+    weight = 100
+    
+[[languages.en.menu.main]]
+    name = "Blog"
+    identifier = "posts"
+    url = "/en/post/"
+    weight = 200
+
+[[languages.en.menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 400
+    url = "/en/about/"
+
+    
+
+
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+
+
+[[params.socialIcons]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/edoardo-inamo-2431168"
+    icon = "fab fa-linkedin"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+[[params.socialIcons]]
+	title = "github"
+	url = "https://github.com/kingsor"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.socialIcons]]
+	title = "rss"
+	url = "/index.xml"
+    icon = "fas fa-rss"
+    footer = true
+    sharethis = true
+    network = "rss"
+

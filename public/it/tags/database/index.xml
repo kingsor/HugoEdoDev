@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on One inch at a time</title>
+    <link>https://example.com/it/tags/database/</link>
+    <description>Recent content in database on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/it/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Server 2019 con docker su Mac M1</title>
+      <link>https://example.com/it/post/2022-05-15-sql-server-docker-mac-m1/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2022-05-15-sql-server-docker-mac-m1/</guid>
+      
+        <description>Come utilizzare SQL Server su Mac M1</description>
+      
+    </item>
+    
+    <item>
+      <title>SQL Server 2019 con docker compose</title>
+      <link>https://example.com/it/post/2022-01-09-sql-server-2019-docker-compose/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2022-01-09-sql-server-2019-docker-compose/</guid>
+      
+        <description>Come utilizzare docker compose per instanziare SQL Server 2019</description>
+      
+    </item>
+    
+    <item>
+      <title>Restore di un backup su SQL Server</title>
+      <link>https://example.com/it/post/2020-01-20-restore-di-backup-su-sqlserver/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/it/post/2020-01-20-restore-di-backup-su-sqlserver/</guid>
+      
+        <description>Come fare il restore di un backup su un&amp;rsquo;immagine docker di SQL Server per Linux</description>
+      
+    </item>
+    
+  </channel>
+</rss>

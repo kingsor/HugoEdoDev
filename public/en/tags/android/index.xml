@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>android on One inch at a time</title>
+    <link>https://example.com/en/tags/android/</link>
+    <description>Recent content in android on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Architecture Components</title>
+      <link>https://example.com/en/post/2018-09-25-using-architecture-components/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2018-09-25-using-architecture-components/</guid>
+      
+        <description>This post is a note to self about a talk by Phil Shadlyn on Writing an App with Architecture Components</description>
+      
+    </item>
+    
+    <item>
+      <title>Three tips from Antonio Leiva</title>
+      <link>https://example.com/en/post/2016-10-14-three-tips-from-antonio-leiva/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2016-10-14-three-tips-from-antonio-leiva/</guid>
+      
+        <description>Top three tips to become an expert developer by Antonio Leiva</description>
+      
+    </item>
+    
+    <item>
+      <title>More Android Open Source Apps</title>
+      <link>https://example.com/en/post/2016-01-26-more-android-open-source-apps/</link>
+      <pubDate>Tue, 26 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2016-01-26-more-android-open-source-apps/</guid>
+      
+        <description>There are more android open source apps I found on the internet that are usefull to improve android development learning.</description>
+      
+    </item>
+    
+    <item>
+      <title>Restoring Factory Settings on Android Device</title>
+      <link>https://example.com/en/post/2015-12-06-restoring-factory-settings-on-android-device/</link>
+      <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-12-06-restoring-factory-settings-on-android-device/</guid>
+      
+        <description>I was looking for restoring my old Samsung Galaxy S2 for using it as a test machine and here is how I made.</description>
+      
+    </item>
+    
+    <item>
+      <title>Android Dev Summit 2015</title>
+      <link>https://example.com/en/post/2015-11-26-android-dev-summit-2015/</link>
+      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-11-26-android-dev-summit-2015/</guid>
+      
+        <description>On November 23rd and 24th there has been the annual Android Dev Summit from the Computer History Museum in Mountain View. This is a note-to-self about the related YouTube channel.</description>
+      
+    </item>
+    
+    <item>
+      <title>From Google I/O 2015</title>
+      <link>https://example.com/en/post/2015-06-01-from-google-io-2015/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-06-01-from-google-io-2015/</guid>
+      
+        <description>The Google I/O 2015 keynote in 10 minutes.</description>
+      
+    </item>
+    
+    <item>
+      <title>IDE Plugins for Android Development</title>
+      <link>https://example.com/en/post/2015-05-09-ide-plugins-for-android-development/</link>
+      <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-05-09-ide-plugins-for-android-development/</guid>
+      
+        <description>A curated list of Android Studio plugins by Linton Ye ...</description>
+      
+    </item>
+    
+    <item>
+      <title>Android Open Source Apps</title>
+      <link>https://example.com/en/post/2015-05-06-android-open-source-apps/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-05-06-android-open-source-apps/</guid>
+      
+        <description>In order to improve my skills on android development I always search for sample code and valueable apps from which learning new things. ...</description>
+      
+    </item>
+    
+    <item>
+      <title>Android Studio 1.0</title>
+      <link>https://example.com/en/post/2014-12-10-android-studio-1-0/</link>
+      <pubDate>Wed, 10 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2014-12-10-android-studio-1-0/</guid>
+      
+        <description>Android Studio 1.0 has been released. Android Studio is the official Integrated Development Environment (IDE) from the Android team.</description>
+      
+    </item>
+    
+    <item>
+      <title>Android ListView, show a message if the list is empty</title>
+      <link>https://example.com/en/post/2014-02-17-android-listview-show-message-if-list-empty/</link>
+      <pubDate>Mon, 17 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2014-02-17-android-listview-show-message-if-list-empty/</guid>
+      
+        <description>This is the common way to show a message when the listview is empty.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

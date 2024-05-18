@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self-improvement on One inch at a time</title>
+    <link>https://example.com/en/tags/self-improvement/</link>
+    <description>Recent content in self-improvement on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/self-improvement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pluralsight Free April</title>
+      <link>https://example.com/en/post/2020-04-08-pluralsight-free-april/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2020-04-08-pluralsight-free-april/</guid>
+      
+        <description>Pluralsight give access for free to its 7000+ video courses during April</description>
+      
+    </item>
+    
+  </channel>
+</rss>

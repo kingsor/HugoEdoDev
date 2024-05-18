@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>app on One inch at a time</title>
+    <link>https://example.com/en/tags/app/</link>
+    <description>Recent content in app on One inch at a time</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/en/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>More Android Open Source Apps</title>
+      <link>https://example.com/en/post/2016-01-26-more-android-open-source-apps/</link>
+      <pubDate>Tue, 26 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2016-01-26-more-android-open-source-apps/</guid>
+      
+        <description>There are more android open source apps I found on the internet that are usefull to improve android development learning.</description>
+      
+    </item>
+    
+    <item>
+      <title>Android Open Source Apps</title>
+      <link>https://example.com/en/post/2015-05-06-android-open-source-apps/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/en/post/2015-05-06-android-open-source-apps/</guid>
+      
+        <description>In order to improve my skills on android development I always search for sample code and valueable apps from which learning new things. ...</description>
+      
+    </item>
+    
+  </channel>
+</rss>
