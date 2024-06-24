@@ -29,7 +29,7 @@ paginate = 5
     reversepagetitle = true
     doNotLoadAnimations = true
     #contentratio = 0.7
-    disableThemeSwitcher = true
+    disableThemeSwitcher = false
     displayMode = "dark"
 
     fullPostContent = false

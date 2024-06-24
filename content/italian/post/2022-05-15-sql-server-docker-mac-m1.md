@@ -1,7 +1,7 @@
 ---
 date: "2022-05-15"
 title: SQL Server 2019 con docker su Mac M1
-summary: Come utilizzare SQL Server su Mac M1
+summary: Come utilizzare SQL Server su Mac M1 - in realtà si parla di Azure SQL Edge per ARM
 categories:
 - developer
 tags:

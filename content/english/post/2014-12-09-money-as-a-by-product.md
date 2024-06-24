@@ -1,9 +1,9 @@
 ---
 date: "2014-12-09T00:00:00Z"
-description: About having a side project and turning it into something that is moderately
+summary: About having a side project and turning it into something that is moderately
   successful; in particular, the challenge of making enough money to sustain the project
   and perhaps even elevating it from the sidelines so that it becomes something not
-  so on the side at all. ...
+  so on the side at all.
 tags:
 - manager
 - money
