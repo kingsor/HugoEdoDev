@@ -1,20 +1,18 @@
 baseURL = "https://edoardoinamo.dev"
-title = "One inch at a time"
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
-theme = 'anatole'
+theme = "anatole"
 
 # Syntax highlighting
 pygmentsUseClasses = true   
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
-paginate = 5
+pagination.pagerSize = 5
 
 [params]
     name = "Edoardo Inamo"
-    title = "Edoardo Inamo"
-    description = "Software Developer"
+    author = "Edoardo Inamo"
     profilePicture = "images/profile.jpg"
     year = 2017
     avatar = "images/profile.jpg"
@@ -23,13 +21,13 @@ paginate = 5
     banner = "images/landscape.jpg"
     favicon = "favicons/"
     DateForm = "January 2, 2006"
-    author = "Edoardo Inamo"
     localizedDates = true
 
     reversepagetitle = true
     doNotLoadAnimations = true
     #contentratio = 0.7
     disableThemeSwitcher = false
+    disableArchiveTitleStyling = true
     displayMode = "dark"
 
     fullPostContent = false
@@ -55,8 +53,10 @@ paginate = 5
     contentDir = "content/italian"
 
 [languages.it.params]
-    #title = "Un passo alla volta"
-    description = "Software Developer (desktop/backend),\n (ASP).NET (Core), C#, Azure, Clean Code,\n Freelance, Full Remote"
+    title = "Edoardo Inamo - Artigiano del Software"
+    description = "Artigiano del Software\nFreelance\nFull Remote"
+    pivaDesc = "Partita IVA"
+    pivaNumber = "10939260963"
 
 [[languages.it.menu.main]]
     name = "Home"
@@ -76,6 +76,12 @@ paginate = 5
     identifier = "about"
     url = "/it/about/"
 
+[[languages.it.menu.main]]
+    name = "Servizi"
+    weight = 500
+    identifier = "services"
+    url = "/it/services/"
+
 [languages.en]
     weight = 2
     languageCode = "en"
@@ -83,8 +89,10 @@ paginate = 5
     contentDir = "content/english"
     
 [languages.en.params]
-    #description = "I'm an experienced IT architect and a Microsoft MVP,\n focusing on the cloud and security. I write about tech, \nMicrosoft, security and lifting weights."
-    description = "Software Developer (desktop/backend),\n (ASP).NET (Core), C#, Azure, Clean Code,\n Freelance, Full Remote"
+    title = "Edoardo Inamo - Software Craftman"
+    description = "Software Craftman\nFreelance\nFull Remote"
+    pivaDesc = "VAT Number"
+    pivaNumber = "10939260963"
 
 [[languages.en.menu.main]]
     name = "Home"
@@ -104,7 +112,11 @@ paginate = 5
     weight = 400
     url = "/en/about/"
 
-    
+[[languages.en.menu.main]]
+    name = "Services"
+    weight = 500
+    identifier = "services"
+    url = "/en/services/"
 
 
 

@@ -15,12 +15,12 @@
       {{ if .IsHome }}
         <div class="sidebar__introduction-title">
           <h1>
-            <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Title }}</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.author }}</a>
           </h1>
         </div>
       {{ else }}
         <div class="sidebar__introduction-title">
-          <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Title }}</a>
+          <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.author }}</a>
         </div>
       {{ end }}
       <div class="sidebar__introduction-description">

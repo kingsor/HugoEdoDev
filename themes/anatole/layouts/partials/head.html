@@ -1,19 +1,7 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    {{ if (eq .Site.Params.reversepagetitle true) }}
-      {{ with .Title }}
-        {{ . }} |
-      {{ end }}
-      {{- .Site.Params.author -}}
-    {{ else }}
-      {{- .Site.Params.author -}}{{ with .Title }}
-        |
-        {{ . }}
-      {{ end }}
-
-    {{ end }}
-
+    {{ .Site.Params.title }}
   </title>
 
   <!-- Meta -->
