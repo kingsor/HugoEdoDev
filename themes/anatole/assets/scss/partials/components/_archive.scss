@@ -25,23 +25,20 @@
       text-align: right;
 
       @include themed() {
-        color: t('primary-lighter');
+        color: t('primary-light');
       }
     }
 
     &-title {
       display: inline-block;
       flex: 0.96;
-      font-size: 2rem;
-      // font-weight: 600;
-      // text-transform: uppercase;
 
       @include themed() {
-        color: t('link');
+        color: t('primary');
       }
       &:hover {
         @include themed() {
-          color: t('link-hover');
+          color: t('info');
         }
       }
     }

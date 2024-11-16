@@ -1,5 +1,50 @@
 # Changelog
 
+## [1.15.1](https://github.com/lxndrblz/anatole/compare/v1.15.0...v1.15.1) (2024-10-16)
+
+
+### Bug Fixes
+
+* deprecation warnings ([#521](https://github.com/lxndrblz/anatole/issues/521)) ([98c88d0](https://github.com/lxndrblz/anatole/commit/98c88d0574cba5072c5fa11accf66776ea5d0cf9))
+
+## [1.15.0](https://github.com/lxndrblz/anatole/compare/v1.14.0...v1.15.0) (2024-07-24)
+
+### Features
+
+- add config option to disable title capitalization ([#408](https://github.com/lxndrblz/anatole/issues/408)) ([297bcc8](https://github.com/lxndrblz/anatole/commit/297bcc825d97cad41359d047e02d310d3fcdf8a1))
+- add general styling for tables ([4eee0da](https://github.com/lxndrblz/anatole/commit/4eee0da80251b046049c3806da9ef4dc90be6a07))
+- implement multilingual portfolio data ([#481](https://github.com/lxndrblz/anatole/issues/481)) ([d500419](https://github.com/lxndrblz/anatole/commit/d500419b5b0ac464387df6226d0dd51721a3e976))
+- translate related posts header ([#473](https://github.com/lxndrblz/anatole/issues/473)) ([f8eda4a](https://github.com/lxndrblz/anatole/commit/f8eda4ac663328b89e8e99d3d5d18b815ccccee1))
+- update fontawesome version ([#508](https://github.com/lxndrblz/anatole/issues/508)) ([7a44369](https://github.com/lxndrblz/anatole/commit/7a44369734a6a2a37162da7c5321c4c8d0a84a43))
+
+### Bug Fixes
+
+- deprecation warnings for recent Hugo versions ([#511](https://github.com/lxndrblz/anatole/issues/511)) ([4435557](https://github.com/lxndrblz/anatole/commit/4435557b80dd5b8f9ff5a391fb9a128254c13ffb))
+- remove decoration around backtick blocks ([#507](https://github.com/lxndrblz/anatole/issues/507)) ([ca04698](https://github.com/lxndrblz/anatole/commit/ca0469823bacccd11f571577ceeb17421b6e1b08))
+- resolve language params warning when using hugo v0.112+ ([#464](https://github.com/lxndrblz/anatole/issues/464)) ([9ac9117](https://github.com/lxndrblz/anatole/commit/9ac9117bccbd19ce4f7d602b9c12a2a38ca2e76d))
+- title in sidebar changing marging ([1ca7be2](https://github.com/lxndrblz/anatole/commit/1ca7be2ca23b7ac6809c3a3a013ce0c6d09ed1c6))
+
+## [1.14.0](https://github.com/lxndrblz/anatole/compare/v1.12.0...v1.14.0) (2024-04-09)
+
+### Features
+
+- add descriptions to portfolio categories ([#494](https://github.com/lxndrblz/anatole/issues/494)) ([a0beb99](https://github.com/lxndrblz/anatole/commit/a0beb99691b4bfa97f8d7ea67efd9f233e5be369))
+- add giscus comments system ([#448](https://github.com/lxndrblz/anatole/issues/448)) ([bedc8f5](https://github.com/lxndrblz/anatole/commit/bedc8f56b595ed13db27b16c1e157149c4bedcac))
+- add Hungarian localization ([#434](https://github.com/lxndrblz/anatole/issues/434)) ([86586db](https://github.com/lxndrblz/anatole/commit/86586dbdde6cc9de3b3cd88ef4ca16acc5b9f25c))
+- add id.toml ([#417](https://github.com/lxndrblz/anatole/issues/417)) ([82847f7](https://github.com/lxndrblz/anatole/commit/82847f76262b2822edc8879a09983e192712eeab))
+- add matomo analytics support ([#500](https://github.com/lxndrblz/anatole/issues/500)) ([418c14e](https://github.com/lxndrblz/anatole/commit/418c14e4629693251bd2a7d6a9623e35d91e9d01)), closes [#411](https://github.com/lxndrblz/anatole/issues/411)
+- add support to provide custom tracker script name for Umami Analytics ([#418](https://github.com/lxndrblz/anatole/issues/418)) ([f6c9968](https://github.com/lxndrblz/anatole/commit/f6c9968ffd595e105d20f3f4aa80ded571f05abb))
+- enable 'pre' property in menu config file ([#381](https://github.com/lxndrblz/anatole/issues/381)) ([6deb26e](https://github.com/lxndrblz/anatole/commit/6deb26e699ceb1eb3d2d325689655bf0e06bb4bb))
+- hide sidebar on certain posts ([#439](https://github.com/lxndrblz/anatole/issues/439)) ([38de0c9](https://github.com/lxndrblz/anatole/commit/38de0c9dfe6bb598bef0effb980bd001553ef59c))
+
+### Bug Fixes
+
+- remove async version of Google Analytics ([#498](https://github.com/lxndrblz/anatole/issues/498)) ([4d73eb5](https://github.com/lxndrblz/anatole/commit/4d73eb5d8be6dfc12cc6f4fe52df6ce492d5f1cf))
+- remove mixin to fix print layout ([#391](https://github.com/lxndrblz/anatole/issues/391)) ([7981438](https://github.com/lxndrblz/anatole/commit/7981438d6c1bd1513ff0f2faab88035c1ef116c2))
+- Resolve font sizing issue ([#451](https://github.com/lxndrblz/anatole/issues/451)) ([de7c5bb](https://github.com/lxndrblz/anatole/commit/de7c5bb037893effd996bc878ba123f4cccdb8cb))
+- tidy <head> elements ([#478](https://github.com/lxndrblz/anatole/issues/478)) ([5299af6](https://github.com/lxndrblz/anatole/commit/5299af67fe031e0028b8fc88b7221194deff2cf1)), closes [#477](https://github.com/lxndrblz/anatole/issues/477)
+- wordwrap in (un)ordered list ([#497](https://github.com/lxndrblz/anatole/issues/497)) ([61e2792](https://github.com/lxndrblz/anatole/commit/61e2792ebdb8a9a974b2c31991cb57502e2d0820)), closes [#496](https://github.com/lxndrblz/anatole/issues/496)
+
 ## [1.13.0](https://github.com/lxndrblz/anatole/compare/v1.12.0...v1.13.0) (2023-05-13)
 
 ### Features

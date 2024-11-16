@@ -61,32 +61,20 @@
   &__content {
     a {
       @include themed() {
-        color: t('link');
-      }
-      &:hover {
-        @include themed() {
-          color: t('link-hover');
-        }
+        color: t('info');
       }
     }
 
     .chroma {
       @include themed() {
-        background-color: t('code-background');
+        background-color: t('primary-lighter');
         display: block;
-        border-bottom: 1px solid t('code-background');
+        border-bottom: 1px solid t('primary-lighter');
       }
     }
 
     code {
       font-family: monospace;
-      padding: 0 2px;
-
-      @include themed() {
-        background-color: t('code-background');
-        border: 1px solid t('code-background');
-        border-radius: 2px;
-      }
     }
 
     pre {
@@ -94,7 +82,7 @@
       overflow-x: auto;
 
       @include themed() {
-        background-color: t('code-background');
+        background-color: t('primary-lighter');
       }
     }
 
@@ -143,12 +131,7 @@
         font-size: $font-size-h3;
 
         @include themed() {
-          color: t('link');
-        }
-        &:hover {
-          @include themed() {
-            color: t('warnlink-hovering');
-          }
+          color: t('primary');
         }
       }
     }
@@ -157,6 +140,7 @@
     ol {
       line-height: 1.9em;
       font-weight: 400;
+      word-wrap: break-word;
     }
 
     img {
@@ -224,17 +208,6 @@
 
   &__footer {
     padding: 12px 0;
-
-    a {
-      @include themed() {
-        color: t('link');
-      }
-      &:hover {
-        @include themed() {
-          color: t('link-hover');
-        }
-      }
-    }
 
     @include themed() {
       border-bottom: t('border');

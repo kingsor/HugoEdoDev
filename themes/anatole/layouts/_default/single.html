@@ -12,7 +12,11 @@
       </div>
     {{ end }}
     <div class="post__content">
-      <h1>{{ title .Title }}</h1>
+      {{ if (eq .Site.Params.disableTitleCapitalization true) }}
+        <h1>{{ .Title }}</h1>
+      {{ else }}
+        <h1>{{ title .Title }}</h1>
+      {{ end }}
       {{ if or (eq .Type "post") (eq .Type .Site.Params.postSectionName) }}
         <ul class="post__meta">
           <li class="post__meta-item">
@@ -40,15 +44,6 @@
             <span class="post__meta-text">{{ i18n "reading_time" .ReadingTime }}</span>
           </li>
         </ul>
-        <div>
-          {{ with .Page.Params.Categories }}
-            {{ partial "taxonomy/categories.html" . }}
-          {{ end }}
-    
-          {{ with .Page.Params.Tags }}
-            {{ partial "taxonomy/tags.html" . }}
-          {{ end }}
-        </div>
       {{ end }}
 
       {{- partial "expirationnote.html" . -}}
@@ -76,17 +71,17 @@
       {{- end -}}
     </div>
     <div class="post__footer">
-      <!-- {{ with .Page.Params.Categories }}
+      {{ with .Page.Params.Categories }}
         {{ partial "taxonomy/categories.html" . }}
       {{ end }}
 
       {{ with .Page.Params.Tags }}
         {{ partial "taxonomy/tags.html" . }}
-      {{ end }} -->
+      {{ end }}
     </div>
 
     {{ if and (or (eq .Type "post") (eq .Type .Site.Params.postSectionName)) (ne .Page.Params.disableComments true) }}
-      {{- if .Site.DisqusShortname -}}
+      {{- if .Site.Config.Services.Disqus.Shortname -}}
         <div id="comment">
           <h2>{{ i18n "comments" }}</h2>
           {{ template "_internal/disqus.html" . }}

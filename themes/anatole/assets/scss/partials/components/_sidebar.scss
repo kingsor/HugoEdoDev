@@ -60,7 +60,7 @@
     }
 
     &-title {
-      // text-transform: uppercase;
+      text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 2px;
       line-height: 1;
@@ -68,6 +68,10 @@
 
       a {
         font-size: 3.2rem;
+      }
+
+      h1 {
+        margin: 0;
       }
     }
   }

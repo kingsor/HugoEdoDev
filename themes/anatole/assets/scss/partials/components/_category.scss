@@ -6,8 +6,8 @@
 
   @include themed() {
     border: t('border');
-    // background-color: t('primary-lighter');
-    // color: t('primary') !important;
+    background-color: t('primary-lighter');
+    color: t('primary') !important;
   }
 
   @include ltr {

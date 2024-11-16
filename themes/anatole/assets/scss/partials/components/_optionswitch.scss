@@ -18,7 +18,7 @@
       top: 32px;
 
       @include themed() {
-        background: t('primary-light');
+        background: t('primary-lighter');
         box-shadow: t('shadow');
       }
     }
@@ -56,9 +56,9 @@
       width: 14px;
 
       @include themed() {
-        background: t('primary-light');
+        background: t('primary-lighter');
         box-shadow: t('shadow');
-        border-color: t('primary-light');
+        border-color: t('primary-lighter');
       }
     }
   }
