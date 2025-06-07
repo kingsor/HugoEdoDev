@@ -1,10 +1,11 @@
 ---
 date: "2016-09-03T00:00:00Z"
-description: What design means to Julie Zhuo
-tags:
+summary: What design means to Julie Zhuo
+categories:
 - manager
-- design
-- product
+- ux-designer
+tags:
+- product-management
 - ixd
 title: Lessons of Good Design
 ---

@@ -1,7 +1,10 @@
 ---
-date: "2014-12-18T00:00:00Z"
-description: 'There are two ways to fall out of a handstand: down the way I came up
+date: "2014-12-18"
+summary: 'There are two ways to fall out of a handstand: down the way I came up
   or over the top into the unknown.'
+categories:
+- developer
+- manager
 tags:
 - lifestyle
 - note-to-self

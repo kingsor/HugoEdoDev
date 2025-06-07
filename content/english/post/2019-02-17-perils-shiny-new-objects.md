@@ -1,10 +1,11 @@
 ---
-date: "2019-02-17T00:00:00Z"
-description: '''Beware of shiny new objects'' advice by Mark Suster'
-tags:
+date: "2019-02-17"
+summary: '''Beware of shiny new objects'' advice by Mark Suster'
+categories:
 - developer
-- product development
 - manager
+tags:
+- product-development
 - note-to-self
 title: The Perils of Shiny New Objects
 ---

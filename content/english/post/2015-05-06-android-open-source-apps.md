@@ -1,13 +1,14 @@
 ---
-date: "2015-05-06T00:00:00Z"
-description: In order to improve my skills on android development I always search
+date: "2015-05-06"
+summary: In order to improve my skills on android development I always search
   for sample code and valueable apps from which learning new things. ...
+categories:
+- developer
 tags:
 - android
 - app
 - open source
 - learning
-- developer
 - mobile
 title: Android Open Source Apps
 ---

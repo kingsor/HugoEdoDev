@@ -1,9 +1,10 @@
 ---
-date: "2018-04-30T00:00:00Z"
-description: This post is a note to self about my first steps in the path for learning
+date: "2018-04-30"
+summary: This post is a note to self about my first steps in the path for learning
   to use Docker. I started deploying an asp.net core web api in a container.
-tags:
+categories:
 - developer
+tags:
 - side-project
 - asp-net-core
 - docker

@@ -1,8 +1,9 @@
 ---
-date: "2015-04-02T00:00:00Z"
-description: Micro-services are not (only) about technology
-tags:
+date: "2015-04-02"
+summary: Micro-services are not (only) about technology
+categories:
 - developer
+tags:
 - micro-services
 - scalability
 - architecture

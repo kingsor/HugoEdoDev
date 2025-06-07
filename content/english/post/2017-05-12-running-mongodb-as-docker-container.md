@@ -1,8 +1,9 @@
 ---
-date: "2017-05-12T00:00:00Z"
-description: Installing and creating a MongoDB database in a Docker container.
-tags:
+date: "2017-05-12"
+summary: Installing and creating a MongoDB database in a Docker container.
+categories:
 - developer
+tags:
 - side-project
 - mongodb
 - docker

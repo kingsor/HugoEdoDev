@@ -1,10 +1,12 @@
 ---
-date: "2015-06-30T00:00:00Z"
-description: A lot of repositories on GitHub.com don't have a license. GitHub provides
+date: "2015-06-30"
+summary: A lot of repositories on GitHub.com don't have a license. GitHub provides
   a license chooser, but if you don't know anything about licenses, how are you supposed
   to make an informed decision?
-tags:
+categories:
 - developer
+- manager
+tags:
 - manager
 - open source
 - license

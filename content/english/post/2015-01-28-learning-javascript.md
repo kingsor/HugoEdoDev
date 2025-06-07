@@ -1,10 +1,11 @@
 ---
-date: "2015-01-28T00:00:00Z"
-description: This is a list of interesting links I collected with the goal of learning
+date: "2015-01-28"
+summary: This is a list of interesting links I collected with the goal of learning
   javascript.
+categories:
+- developer
 tags:
 - javascript
-- developer
 - learning
 title: Learning Javascript
 ---

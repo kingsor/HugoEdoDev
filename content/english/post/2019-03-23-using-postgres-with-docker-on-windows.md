@@ -1,7 +1,7 @@
 ---
 date: "2019-03-23"
 title: Using Postgres with Docker on Windows
-description: How I'm getting started learning Postgres, without installing it on my machine but using Docker instead
+summary: How I'm getting started learning Postgres, without installing it on my machine but using Docker instead
 categories:
 - developer
 tags:

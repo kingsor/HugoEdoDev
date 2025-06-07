@@ -1,13 +1,14 @@
 ---
-date: "2014-05-25T00:00:00Z"
-description: To be authentic is to be trustworthy. If you’re selling snake oil, or
+date: "2014-05-25"
+summary: To be authentic is to be trustworthy. If you’re selling snake oil, or
   doing Internet Marketing just to make a lot of money, you’re not being authentic.
   You’re selling something falsely. And people will figure that out, no matter how
   hard you try.  ...
+categories:
+- manager
 tags:
 - customer
-- manager
-- product
+- product-management
 - trust
 title: Running a business you worth it
 ---

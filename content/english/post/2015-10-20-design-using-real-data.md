@@ -1,9 +1,10 @@
 ---
-date: "2015-10-20T00:00:00Z"
-description: I believe one of the biggest flaws of today’s tools is their failure
+date: "2015-10-20"
+summary: I believe one of the biggest flaws of today’s tools is their failure
   to allow designers to easily work with real data.
+categories:
+- ux-designer
 tags:
-- design
 - tools
 - data
 - ixd

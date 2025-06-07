@@ -1,10 +1,11 @@
 ---
-date: "2015-05-09T00:00:00Z"
-description: A curated list of Android Studio plugins by Linton Ye ...
+date: "2015-05-09"
+summary: A curated list of Android Studio plugins by Linton Ye ...
+categories:
+- developer
 tags:
 - mobile
 - android
-- developer
 - plugins
 - ide
 title: IDE Plugins for Android Development

@@ -1,13 +1,14 @@
 ---
-date: "2016-01-26T00:00:00Z"
-description: There are more android open source apps I found on the internet that
+date: "2016-01-26"
+summary: There are more android open source apps I found on the internet that
   are usefull to improve android development learning.
+categories:
+- developer
 tags:
 - android
 - app
 - open source
 - learning
-- developer
 - mobile
 title: More Android Open Source Apps
 ---

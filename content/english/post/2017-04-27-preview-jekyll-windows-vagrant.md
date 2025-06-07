@@ -1,8 +1,9 @@
 ---
-date: "2017-04-27T00:00:00Z"
-description: How to preview your GitHub Pages (Jekyll) on Windows 10 with Vagrant
-tags:
+date: "2017-04-27"
+summary: How to preview your GitHub Pages (Jekyll) on Windows 10 with Vagrant
+categories:
 - developer
+tags:
 - jekyll
 - vagrant
 - github pages

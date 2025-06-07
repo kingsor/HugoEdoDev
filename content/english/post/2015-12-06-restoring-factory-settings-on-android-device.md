@@ -1,11 +1,12 @@
 ---
-date: "2015-12-06T00:00:00Z"
-description: I was looking for restoring my old Samsung Galaxy S2 for using it as
+date: "2015-12-06"
+summary: I was looking for restoring my old Samsung Galaxy S2 for using it as
   a test machine and here is how I made.
+categories:
+- developer
 tags:
 - mobile
 - android
-- developer
 - configuration
 title: Restoring Factory Settings on Android Device
 ---

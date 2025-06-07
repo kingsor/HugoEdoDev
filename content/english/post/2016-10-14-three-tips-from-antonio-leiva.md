@@ -1,9 +1,10 @@
 ---
-date: "2016-10-14T00:00:00Z"
-description: Top three tips to become an expert developer by Antonio Leiva
+date: "2016-10-14"
+summary: Top three tips to become an expert developer by Antonio Leiva
+categories:
+- developer
 tags:
 - android
-- developer
 - tips
 title: Three tips from Antonio Leiva
 ---

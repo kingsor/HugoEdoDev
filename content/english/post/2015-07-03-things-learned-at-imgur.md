@@ -1,11 +1,12 @@
 ---
-date: "2015-07-03T00:00:00Z"
-description: A usefull list curated by Sam Gerstenzang about 16 product things he
+date: "2015-07-03"
+summary: A usefull list curated by Sam Gerstenzang about 16 product things he
   learned at Imgur.
-tags:
-- product
+categories:
 - manager
-- lessons learned
+tags:
+- product-management
+- lessons-learned
 title: Things learned at Imgur
 ---
 

@@ -1,9 +1,10 @@
 ---
-date: "2014-02-22T00:00:00Z"
-description: Why it is usefull for developers to understand desing.
-tags:
+date: "2014-02-22"
+summary: Why it is usefull for developers to understand desing.
+categories:
 - developer
-- design
+- ux-designer
+tags:
 - ixd
 title: Why Developers Should Understand Design
 ---

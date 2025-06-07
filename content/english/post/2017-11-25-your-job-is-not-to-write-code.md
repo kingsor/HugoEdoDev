@@ -1,11 +1,11 @@
 ---
-date: "2017-11-25T00:00:00Z"
-description: Interesting point of view about improving the product developers work
-  for
-tags:
-- manager
+date: "2017-11-25"
+summary: Interesting point of view about improving the product developers work for
+categories:
 - developer
-- product
+- manager
+tags:
+- product-management
 title: Your job is not (only) to write code
 ---
 

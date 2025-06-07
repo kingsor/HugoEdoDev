@@ -1,9 +1,10 @@
 ---
-date: "2016-02-08T00:00:00Z"
-description: I've found a nice solution for reading a file, be able to perform other
+date: "2016-02-08"
+summary: I've found a nice solution for reading a file, be able to perform other
   operations with the read data and write it to another file.
-tags:
+categories:
 - developer
+tags:
 - javascript
 - node.js
 title: How to read a file and write it again with separate functions with node.js

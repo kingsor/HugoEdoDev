@@ -1,10 +1,11 @@
 ---
-date: "2018-02-15T00:00:00Z"
-description: Important metrics for a Service
-tags:
+date: "2018-02-15"
+summary: Important metrics for a Service
+categories:
 - manager
+tags:
 - side-project
-- product
+- product-management
 title: About Pirate Metrics
 ---
 

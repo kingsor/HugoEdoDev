@@ -1,9 +1,10 @@
 ---
-date: "2016-01-07T00:00:00Z"
-description: I was looking for updating a forked repository and I found the answer
+date: "2016-01-07"
+summary: I was looking for updating a forked repository and I found the answer
   on StackOverflow.
-tags:
+categories:
 - developer
+tags:
 - git
 - github
 title: How to update a GitHub forked repository

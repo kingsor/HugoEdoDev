@@ -1,9 +1,10 @@
 ---
-date: "2015-09-07T00:00:00Z"
-description: 'Everything started opening a Visual Studio 2010 Solution and getting
+date: "2015-09-07"
+summary: 'Everything started opening a Visual Studio 2010 Solution and getting
   the following error: ''The project type is not supported by this installation.'''
-tags:
+categories:
 - developer
+tags:
 - visual studio
 - project type
 - guid

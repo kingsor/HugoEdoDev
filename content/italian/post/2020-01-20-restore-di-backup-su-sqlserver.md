@@ -8,7 +8,7 @@ tags:
 - database
 - sql-server
 - docker
-- til
+- lessons-learned
 ---
 
 Per prima cosa ho fatto partire [un'immagine docker di SQL Server 2019 per Linux](https://mcr.microsoft.com/en-us/product/mssql/server/about):

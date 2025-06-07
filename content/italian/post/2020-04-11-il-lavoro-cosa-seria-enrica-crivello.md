@@ -2,6 +2,8 @@
 date: "2020-04-11"
 title: Il lavoro è una cosa seria
 summary: Il lavoro è una cosa seria, ma una può anche decidere di farlo divertendosi.
+categories:
+- manager
 tags:
 - freelancing
 - personal-branding

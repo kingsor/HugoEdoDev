@@ -1,9 +1,10 @@
 ---
 date: "2020-03-25T00:00:00Z"
 summary: 'About error: Encountered end tag ''tr'' with no matching start tag'
-tags:
+categories:
 - developer
-- til
+tags:
+- lessons-learned
 - asp-net
 - asp-net-core
 title: Simple If/Else Razor Syntax

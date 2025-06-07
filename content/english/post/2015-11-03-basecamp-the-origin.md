@@ -1,11 +1,12 @@
 ---
-date: "2015-11-03T00:00:00Z"
-description: To us project management was all about communication. None of the software
+date: "2015-11-03"
+summary: To us project management was all about communication. None of the software
   makers at the time seemed to agree. So we decided to make our own.
+categories:
+- manager
 tags:
 - basecamp
-- manager
-- product
+- product-management
 - 37signals
 title: Basecamp The origin
 ---

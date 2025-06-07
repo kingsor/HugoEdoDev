@@ -1,10 +1,11 @@
 ---
-date: "2018-07-18T00:00:00Z"
-description: This is an Indie Hackers story about a side project that become a product
+date: "2018-07-18"
+summary: This is an Indie Hackers story about a side project that become a product
+categories:
+- manager
 tags:
-- developer
 - side-project
-- product development
+- product-development
 title: Bootstrapping a Side Project into a Product
 ---
 

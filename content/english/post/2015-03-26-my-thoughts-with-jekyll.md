@@ -1,13 +1,12 @@
 ---
-date: "2015-03-26T00:00:00Z"
-description: I decided to update my site hosted on GitHub using GitHub Pages and Jekyll.
-  I was curious about static site generators and I started my search through StaticGen
-  ...
+date: "2015-03-26"
+summary: I decided to update my site hosted on GitHub using GitHub Pages and Jekyll. I was curious about static site generators and I started my search through StaticGen.
+categories:
+- developer
 tags:
 - blogging
 - jekyll
 - static site generator
-- developer
 title: My Thoughts with Jekyll
 ---
 

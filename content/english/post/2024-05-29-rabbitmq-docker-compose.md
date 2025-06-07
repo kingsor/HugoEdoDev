@@ -8,7 +8,7 @@ tags:
 - rabbitmq
 - docker
 - docker-compose
-- til
+- lessons-learned
 series:
 - series-docker-compose
 

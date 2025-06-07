@@ -1,9 +1,10 @@
 ---
-date: "2020-02-26T00:00:00Z"
-description: When DataTables order option seems not to work
-tags:
+date: "2020-02-26"
+summary: When DataTables order option seems not to work
+categories:
 - developer
-- til
+tags:
+- lessons-learned
 title: DataTables Order option not working
 ---
 

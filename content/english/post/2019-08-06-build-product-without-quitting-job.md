@@ -1,9 +1,10 @@
 ---
-date: "2019-08-06T00:00:00Z"
-description: My quotes from Aytekin Tank post on IndieHackers
+date: "2019-08-06"
+summary: My quotes from Aytekin Tank post on IndieHackers
+categories:
+- manager
 tags:
-- developer
-- product development
+- product-development
 - note-to-self
 title: Build a product without quitting your day job
 ---
