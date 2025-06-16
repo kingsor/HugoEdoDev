@@ -1,0 +1,30 @@
+{{- $api_key := "" -}}
+{{- $json := "" -}}
+
+{{/* Get API key from config.toml. */}}
+{{- with .Site.Params.linkpreview_api_key -}}
+  {{ $api_key = . }}
+{{- else -}}
+  {{- errorf "The '%s' shortcode requires an API key for linkpreview.net. Please set '[params] linkpreview_api_key' in config.toml. See %s" .Name .Position -}}
+{{- end -}}
+
+{{/* Get JSON from LinkPreview.net */}}
+{{- with .Get 0 -}}
+  {{ $data := dict }}
+  {{- $url := replace . ":" "%3A" -}}
+  {{- $url = replace $url "/" "%2F" -}}
+  {{- $query := querify "q" $url "key" $api_key -}}
+  {{- $request := printf "https://api.linkpreview.net/?%s" $query -}}
+  {{ with try (resources.GetRemote $request) }}
+    {{ with .Err }}
+      {{ errorf "%s" . }}
+    {{ else }}
+      {{ $data = .Value | transform.Unmarshal }}
+      <pre>{{ jsonify (dict "indent" "  ") $data }}</pre>
+    {{ end }}
+  {{ else }}
+    {{ errorf "Unable to get remote resource %q" $request }}
+  {{ end }}
+{{- else -}}
+  {{- errorf "The '%s' shortcode requires a single positional parameter, a URL. See %s" .Name .Position -}}
+{{- end -}}

@@ -1,0 +1,30 @@
+{{- $api_key := "" -}}
+{{- $json := "" -}}
+
+{{/* Get API key from config.toml. */}}
+{{- with .Site.Params.opengraph_io_api_key -}}
+  {{ $api_key = . }}
+{{- else -}}
+  {{- errorf "The '%s' shortcode requires an API key for opengraph.io. Please set '[params] opengraph_io_api_key' in config.toml. See %s" .Name .Position -}}
+{{- end -}}
+
+{{/* Get JSON from OpenGraph.io. */}}
+{{- with .Get 0 -}}
+  {{ $data := dict }}
+  {{- $url := replace . ":" "%3A" -}}
+  {{- $url = replace $url "/" "%2F" -}}
+  {{- $query := querify "accept_lang" "auto" "app_id" $api_key -}}
+  {{- $request := printf "https://opengraph.io/api/1.1/site/%s?%s" $url $query -}}
+  {{ with resources.GetRemote $request }}
+    {{ with .Err }}
+      {{ errorf "%s" . }}
+    {{ else }}
+      {{ $data = . | transform.Unmarshal }}
+      <pre>{{ jsonify (dict "indent" "  ") $data }}</pre>
+    {{ end }}
+  {{ else }}
+    {{ errorf "Unable to get remote resource %q" $request }}
+  {{ end }}
+{{- else -}}
+  {{- errorf "The '%s' shortcode requires a single positional parameter, a URL. See %s" .Name .Position -}}
+{{- end -}}

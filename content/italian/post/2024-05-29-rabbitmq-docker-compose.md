@@ -14,22 +14,23 @@ series:
 
 ---
 
-Docker compose file for working with rabbit mq
+## Prerequisiti
 
-## Prerequisites
+Prima di poter instanziare RabbitMQ utilizzando Docker Compose, ci sono i seguenti prerequisiti:
 
-Before you can deploy RabbitMQ using Docker Compose, you will need to have a few things in place. Here are the prerequisites:
+- Docker: dovrai avere [Docker](https://docs.docker.com/get-docker/) installato sul tuo sistema. Se non hai già installato Docker, puoi scaricarlo dal sito Web ufficiale di Docker. Assicurati di scaricare la versione adatta al tuo sistema operativo.
+- Docker Compose: dovrai inoltre avere Docker Compose installato sul tuo sistema. Docker Compose viene fornito preinstallato con Docker Desktop per Windows e macOS, ma se utilizzi Linux o se devi installarlo separatamente, puoi seguire le istruzioni presenti in questo post: [Docker Compose documentation page for Linux](https://docs.docker.com/compose/install/linux/).
 
-- Docker - You will need to have [Docker](https://docs.docker.com/get-docker/) installed on your system. If you don't have Docker installed already, you can download it from the official Docker website. Be sure to download the version that is appropriate for your operating system.
-- Docker Compose - You will also need to have Docker Compose installed on your system. Docker Compose comes pre-installed with Docker Desktop for Windows and macOS, but if you are using Linux or if you need to install it separately, you can follow the instructions on the [Docker Compose documentation page for Linux](https://docs.docker.com/compose/install/linux/).
 
-## How to start RabbitMQ
+## Come avviare RabbitMQ
 
-Clone this repo on your machine.
+Il file per docker compose è disponibile in questo [repository](https://github.com/kingsor/rabbitmq-compose) su GitHub.
 
-In a terminal window go to the folder where you cloned this repo. Default name is `rabbitmq-compose`.
+Inizia clonando quel repository sul computer sul quale hai installato Docker.
 
-Then you can start RabbitMQ:
+Apri il terminale nel folder nel quale hai clonato il repository. Il nome di default è `rabbitmq-compose`.
+
+Successivamente puoi far partire RabbitMQ digitando il seguente comando:
 
 ```bash
 
@@ -37,7 +38,7 @@ docker compose up -d
 
 ```
 
-Then Docker download rabbitmq image and start the container.
+A questo punto Docker scarica l'immagine di rabbitmq e fa partire il container.
 
 
 ```bash
@@ -61,6 +62,7 @@ PS C:\Projects\00-Docker-Projects\rabbitmq-compose>
 
 ```
 
-The RabbitMQ management interface will be accessible at [http://localhost:15672](http://localhost:15672) and you can log in with the default credentials (guest/guest).
+La dashboard di gestione di RabbitMQ è accessibile a questo url: [http://localhost:15672](http://localhost:15672) e si può accedere con le credenziali di default (guest/guest).
 
-That's all.
+A questo punto è possibile utilizzare RabbitMQ dalle vostre applicazioni.
+
