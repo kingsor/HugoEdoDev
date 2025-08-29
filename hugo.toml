@@ -22,6 +22,7 @@ pagination.pagerSize = 5
     favicon = "favicons/"
     DateForm = "January 2, 2006"
     localizedDates = true
+    disableTitleCapitalization = true
 
     reversepagetitle = true
     doNotLoadAnimations = true
@@ -43,6 +44,9 @@ pagination.pagerSize = 5
     showFooterTextWidget = true
     showFooterFormWidget = true
 
+    opengraph_io_api_key = "832932ea-5b8a-4cdc-9ff3-e70e2f1f001b"
+    linkpreview_api_key = "97657aa0b3e40c49c41bf4a08ec88833"
+
 
 [languages]
 
@@ -53,8 +57,8 @@ pagination.pagerSize = 5
     contentDir = "content/italian"
 
 [languages.it.params]
-    title = "Edoardo Inamo - Artigiano del Software"
-    description = "Artigiano del Software\nFreelance\nFull Remote"
+    title = "Edoardo Inamo - Product-Oriented Software Developer"
+    description = "Product-Oriented Software Developer | Creo soluzioni digitali che uniscono tecnologia e impatto"
     pivaDesc = "Partita IVA"
     pivaNumber = "10939260963"
 
@@ -89,8 +93,8 @@ pagination.pagerSize = 5
     contentDir = "content/english"
     
 [languages.en.params]
-    title = "Edoardo Inamo - Software Craftman"
-    description = "Software Craftman\nFreelance\nFull Remote"
+    title = "Edoardo Inamo - Product-Oriented Software Developer"
+    description = "Product-Oriented Software Developer | Building digital solutions that combine technology and impact"
     pivaDesc = "VAT Number"
     pivaNumber = "10939260963"
 
