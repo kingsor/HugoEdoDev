@@ -1,5 +1,5 @@
 ---
-date: "2019-11-200"
+date: "2019-11-20"
 summary: We all make mistakes. The question to ask yourself is whether you’ve created a culture within your family, friend circle or organizations that encourages others to bring those mistakes to light before it’s too late.
 categories:
 - developer
