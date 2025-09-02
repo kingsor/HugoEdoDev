@@ -3,14 +3,11 @@ title = "Chi Sono"
 type = "about"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+Sono un professionista con una visione completa del ciclo di vita di un prodotto digitale. Lavoro in piena autonomia, collaborando con team per creare prodotti che uniscono tecnologia e valore per gli utenti.
 
-## About Page in italian
+Con competenze tecniche solide (.NET Core, C#, Azure, Clean Code) e una visione ampia del processo di creazione, accompagno le aziende dall'idea alla realizzazione, garantendo risultati scalabili e centrati sull'utente.
 
-### Necessitatibus
+Porto competenze tecniche avanzate (.NET Core, C#, Azure, Clean Code) integrate con una visione strategica del ciclo di vita dei prodotti digitali. Oltre allo sviluppo software, mi occupo di architettura, ottimizzazione dei processi e collaborazione con team multidisciplinari per creare esperienze digitali efficaci e scalabili.
 
-Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!
+Lavoro come freelance full remote.
 
-### Fugit, laboriosam
-
-Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?
