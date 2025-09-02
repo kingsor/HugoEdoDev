@@ -3,14 +3,11 @@ title = "About me"
 type = "about"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+I am a professional with a complete vision of the life cycle of a digital product. I work completely independently, collaborating with teams to create products that combine technology and value for users.
 
-## About Page in english
+With solid technical skills (.NET Core, C#, Azure, Clean Code) and a broad vision of the creation process, I accompany companies from idea to realization, ensuring scalable and user-centered results.
 
-### Necessitatibus
+I bring advanced technical skills (.NET Core, C#, Azure, Clean Code) integrated with a strategic vision of the digital product life cycle. In addition to software development, I focus on architecture, process optimization and collaboration with multidisciplinary teams to create effective and scalable digital experiences.
 
-Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!
+I work as a full remote freelancer.
 
-### Fugit, laboriosam
-
-Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?
