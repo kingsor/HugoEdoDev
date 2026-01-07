@@ -159,7 +159,7 @@ public class JsonIgnoreProperties
 
 ```
 
-A questo punto la classe 'JsonIgnoreProperties' va instanziata ed utilizzata in questo modo:
+A questo punto la classe `JsonIgnoreProperties` va instanziata ed utilizzata in questo modo:
 
 ```csharp
 
@@ -192,7 +192,7 @@ Console.WriteLine(json);
 
 Ecco il risultato in formato json con le seguenti proprietà escluse dalla serializzazione:
 - `Id` esclusa grazie all'attributo `[JsonIgnore]`
-- `Language` esclusa grazie alla classe `IgnoreProperties`
+- `Language` esclusa grazie alla classe `JsonIgnoreProperties`
 
 ```json
 {
