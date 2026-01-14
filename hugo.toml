@@ -1,4 +1,4 @@
-baseURL = "https://edodev-hugo.netlify.app/"
+baseURL = "https://edoardoinamo.dev/"
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
 theme = "anatole"
