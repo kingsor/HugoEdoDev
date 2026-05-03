@@ -1,7 +1,8 @@
 baseURL = "https://edoardoinamo.dev/"
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
-theme = "anatole"
+theme = "PaperMod"
+title = "Edoardo Inamo"
 
 # Syntax highlighting
 pygmentsUseClasses = true   
@@ -44,6 +45,13 @@ pagination.pagerSize = 5
     showFooterTextWidget = true
     showFooterFormWidget = true
 
+[params.profileMode]
+    enabled = true
+    imageUrl = "images/profile.jpg"
+    imageTitle = "Edoardo's profile image"
+    imageWidth = 250
+    imageHeight = 250
+    
 
 
 [languages]
@@ -55,10 +63,13 @@ pagination.pagerSize = 5
     contentDir = "content/italian"
 
 [languages.it.params]
-    title = "Edoardo Inamo - Product-Oriented Software Developer"
-    description = "Product-Oriented Software Developer \nConverto le esigenze dei clienti in prodotti digitali che soddisfano gli utenti"
-    pivaDesc = "Partita IVA"
-    pivaNumber = "10939260963"
+    pivaDesc = "P.IVA"
+    pivaNumber = "IT10939260963"
+
+[languages.it.params.profileMode]
+    title = "Edoardo Inamo"
+    subtitle = "Product-Minded Software Developer"
+    description = "Converto le esigenze dei clienti in prodotti digitali che soddisfano gli utenti"
 
 [[languages.it.menu.main]]
     name = "Home"
@@ -66,12 +77,6 @@ pagination.pagerSize = 5
     url = "/it/"
     weight = 100
     
-[[languages.it.menu.main]]
-    name = "Blog"
-    identifier = "posts"
-    url = "/it/post/"
-    weight = 200
-
 [[languages.it.menu.main]]
     name = "Chi Sono"
     weight = 400
@@ -91,10 +96,13 @@ pagination.pagerSize = 5
     contentDir = "content/english"
     
 [languages.en.params]
-    title = "Edoardo Inamo - Product-Oriented Software Developer"
-    description = "Product-Oriented Software Developer \nConverting customers needs into digital products that delight users"
-    pivaDesc = "VAT Number"
-    pivaNumber = "10939260963"
+    pivaDesc = "VATIN"
+    pivaNumber = "IT10939260963"
+
+[languages.en.params.profileMode]
+    title = "Edoardo Inamo"
+    subtitle = "Product-Minded Software Developer"
+    description = "Converting customers needs into digital products that delight users"
 
 [[languages.en.menu.main]]
     name = "Home"
@@ -102,12 +110,6 @@ pagination.pagerSize = 5
     url = "/en/"
     weight = 100
     
-[[languages.en.menu.main]]
-    name = "Blog"
-    identifier = "posts"
-    url = "/en/post/"
-    weight = 200
-
 [[languages.en.menu.main]]
     name = "About"
     identifier = "about"
@@ -130,25 +132,20 @@ pagination.pagerSize = 5
 
 
 [[params.socialIcons]]
-	title = "LinkedIn"
+	name = "linkedin"
+    title = "LinkedIn"
 	url = "https://www.linkedin.com/in/edoardo-inamo-2431168"
-    icon = "fab fa-linkedin"
-    footer = true
-    sharethis = true
-    network = "linkedin"
 [[params.socialIcons]]
+    name = "github"
 	title = "GitHub"
 	url = "https://github.com/kingsor"
-    icon = "fab fa-github"
-    footer = true
-    sharethis = false
-    network = ""
 [[params.socialIcons]]
-	title = "Bluesky"
+	name = "bluesky"
+    title = "Bluesky"
 	url = "https://bsky.app/profile/edoardoinamo.bsky.social"
-    icon = "fab fa-bluesky"
-    footer = true
-    sharethis = false
-    network = ""
+[[params.socialIcons]]
+	name = "dev"
+    title = "DEV.to"
+	url = "https://dev.to/kingsor"
 
 
