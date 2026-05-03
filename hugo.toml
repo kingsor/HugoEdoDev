@@ -83,11 +83,11 @@ pagination.pagerSize = 5
     identifier = "about"
     url = "/it/about/"
 
-[[languages.it.menu.main]]
-    name = "Servizi"
-    weight = 500
-    identifier = "services"
-    url = "/it/services/"
+#[[languages.it.menu.main]]
+#    name = "Servizi"
+#    weight = 500
+#    identifier = "services"
+#    url = "/it/services/"
 
 [languages.en]
     weight = 2
@@ -116,11 +116,11 @@ pagination.pagerSize = 5
     weight = 400
     url = "/en/about/"
 
-[[languages.en.menu.main]]
-    name = "Services"
-    weight = 500
-    identifier = "services"
-    url = "/en/services/"
+#[[languages.en.menu.main]]
+#    name = "Services"
+#    weight = 500
+#    identifier = "services"
+#    url = "/en/services/"
 
 
 
