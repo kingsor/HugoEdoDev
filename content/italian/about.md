@@ -3,13 +3,14 @@ title = "Chi Sono"
 type = "about"
 +++
 
-Con oltre 20 anni di esperienza nello sviluppo software, ho una profonda conoscenza del ciclo di vita di un prodotto digitale. 
+Sono un software engineer italiano con oltre 20 anni di esperienza nella creazione di prodotti digitali e con una ottima conoscenza del ciclo di vita del software. 
 
-Mi specializzo nella progettazione e realizzazione di soluzioni scalabili e user-centered, accompagnando le aziende dall'idea alla realizzazione. 
+Sono specializzato nella progettazione e realizzazione di soluzioni scalabili e user-centered, accompagnando le aziende dall'idea alla realizzazione. 
 
-Grazie alle mie competenze tecniche (.NET Core, C#, WPF, ASP.Net Web API, Azure, Clean Code) e alla mia capacità di lavorare in modo autonomo come anche all'interno di team, ho contribuito a numerosi progetti in settori come SCADA, WMS, applicazioni di prenotazione, sistemi industriali e molto altro.
+Grazie alle mie competenze tecniche e alla capacità di lavorare in modo autonomo come anche all'interno di team, ho contribuito alla realizzazione o manutenzione di numerosi progetti in settori come SCADA, WMS, applicazioni di prenotazione, sistemi industriali e molto altro.
 
-Lavoro come freelance full remote.
+Lavoro come freelance in modalità full remote.
+
 
 ## Competenze tecniche
 
@@ -29,3 +30,4 @@ Ho maturato esperienza significativa nei seguenti settori:
 - **Fintech** – gestione del rischio, analisi finanziaria.
 
 
+ooOOoo
