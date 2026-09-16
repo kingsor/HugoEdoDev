@@ -68,8 +68,8 @@ pagination.pagerSize = 5
 
 [languages.it.params.profileMode]
     title = "Edoardo Inamo"
-    subtitle = "Product Minded Software Engineer"
-    description = "Converto le esigenze dei clienti in prodotti digitali che soddisfano gli utenti"
+    subtitle = "Software Developer Product-Minded"
+    description = "Aiuto le aziende a creare prodotti digitali d’impatto e centrati sull’utente"
 
 [[languages.it.menu.main]]
     name = "Home"
@@ -101,8 +101,8 @@ pagination.pagerSize = 5
 
 [languages.en.params.profileMode]
     title = "Edoardo Inamo"
-    subtitle = "Product Minded Software Engineer"
-    description = "Converting customers needs into digital products that delight users"
+    subtitle = "Product-Minded Software Developer"
+    description = "Helping companies build high-impact, user-centric digital products"
 
 [[languages.en.menu.main]]
     name = "Home"
