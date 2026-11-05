@@ -196,6 +196,8 @@
 
 {{- partial "extend_head.html" . -}}
 
+{{- partial "posthog.html" . -}}
+
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
 {{- partial "google_analytics.html" . }}
